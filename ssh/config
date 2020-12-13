@@ -1,0 +1,10 @@
+# 为github设置代理
+Host github.com
+   HostName github.com
+   User git
+   Port 22
+   # 走 HTTP 代理
+   # ProxyCommand socat - PROXY:127.0.0.1:%h:%p,proxyport=8080
+   # 走 socks5 代理（如 Shadowsocks）
+   # 在archlinux上需要安装openbsd-netcat包才能使用nc命令
+   ProxyCommand nc -v -x 127.0.0.1:1080 %h %p
