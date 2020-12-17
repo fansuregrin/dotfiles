@@ -4,4 +4,4 @@
 For myself, I love the `ked plasma`. [Kde Plasma](https://kde.org/plasma-desktop/) is beautiful DE that you can customize it by yourself, and it provides a comprehensive system settings and freely adjustable pannels for you. 
 
 ## 2.Image Viewer
-There are a lot of image viewers you can choose, and I am using `gwenview`. You can find your favorite image viewer through this [wiki](https://wiki.archlinux.org/index.php/List_of_applications/Multimedia#Image_viewers) page.
+There are a lot of image viewers you can choose, and I am using `gwenview`. You can find your favourite image viewer through this [wiki](https://wiki.archlinux.org/index.php/List_of_applications/Multimedia#Image_viewers) page.
