@@ -1,0 +1,16 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.fontSize": 16,
+    "editor.fontWeight": "normal",
+    "terminal.external.linuxExec": "/usr/bin/konsole",
+    "terminal.integrated.automationShell.linux": "/usr/bin/bash",
+    "terminal.integrated.fontFamily": " 'Liberation Mono' ",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "http.proxySupport": "off",
+    "terminal.integrated.fontSize": 16,
+}
