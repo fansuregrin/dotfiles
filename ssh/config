@@ -1,10 +1,26 @@
-# 为github设置代理
+Host *  
+	TCPKeepAlive yes
+	ServerAliveInterval  60
+	ServerAliveCountMax  30
+
 Host github.com
-   HostName github.com
-   User git
-   Port 22
-   # 走 HTTP 代理
-   # ProxyCommand socat - PROXY:127.0.0.1:%h:%p,proxyport=8080
-   # 走 socks5 代理（如 Shadowsocks）
-   # 在archlinux上需要安装openbsd-netcat包才能使用nc命令
-   ProxyCommand nc -v -x 127.0.0.1:1080 %h %p
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/github
+	# set proxy
+	ProxyCommand nc -v -x 127.0.0.1:20170 %h %p
+
+Host aur.archlinux.org
+	HostName aur.archlinux.org
+	IdentityFile ~/.ssh/aur
+ 	User fansuregrin
+
+Host myaliyun
+	HostName 106.14.167.124
+	User fansuregrin 
+	IdentityFile ~/.ssh/aliyun 
+
+Host myaliyun 
+	HostName 106.14.167.124
+	User root 
+	IdentityFile ~/.ssh/aliyun 
