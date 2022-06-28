@@ -1,1 +1,1 @@
-我的vim配置
+My configurations of `vim`.
