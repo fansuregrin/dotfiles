@@ -1,1 +1,0 @@
-My configurations of `vim`.
