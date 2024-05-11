@@ -1,4 +1,3 @@
-# linux-config
-some important config files of my linux os
+# My Dotfiles
 
-- [some software I used on Linux](https://github.com/fansuregrin/linux-config/blob/master/my_software.md).
+Record my dotfiles for quick deployment on other Linux machines.
